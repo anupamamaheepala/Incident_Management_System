@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: rgb(0, 86, 162);
+  padding: 15px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 220px;
+  margin: 15px 0;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #fff;
+  height: 2px;
+  width: 50px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: #fdfdfd;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a,
+.footer-col .payment-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover,
+.footer-col .payment-links a:hover {
+  color: #24262b;
+  background-color: #fff;
+  transform: scale(1.2);
+}
+
+.footer-col .social-links a:hover[href="https://www.facebook.com"] i {
+  color: #3b5998;
+}
+
+.footer-col .social-links a:hover[href="https://www.instagram.com"] i {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-col .social-links a:hover[href="https://www.linkedin.com"] i {
+  color: #0077B5;
+}
+
+.footer-col .social-links a:hover[href="https://www.youtube.com"] i {
+  color: #FF0000;
+}
+
+.footer-col .payment-links a:hover[href="https://www.visa.com"] i {
+  color: #1a1f71;
+}
+
+.footer-col .payment-links a:hover[href="https://www.mastercard.com"] i {
+  background: linear-gradient(45deg, #EB001B, #F79E1B);
+  -webkit-background-clip: text;
+ 
+}
+
+.footer-col .payment-links a:hover[href="https://www.amex.com"] i {
+    background: -webkit-linear-gradient(45deg, #4d4f53, #1a1f71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.footer-col .payment-links a:hover[href="https://www.paypal.com"] i {
+    color: #003087;
+}
+
+ 
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
