@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Divider, Typography } from '@mui/material';
+import { Divider, Typography } from '@mui/material';
 import '../css/signup.css';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -156,9 +156,14 @@ const Signup = () => {
                         </Divider>
           </div>
           
-          <button type="button" className="signup-btn-google-login">
-            Google Account
-          </button>
+          <div className="signup-social-buttons-con">
+            <button type="button" className="signup-btn-facebook-login">
+              Facebook Account
+            </button>
+            <button type="button" className="signup-btn-google-login">
+              Google Account
+            </button>
+          </div>          
         </form>
       </div>
       <Footer />

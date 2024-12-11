@@ -112,7 +112,8 @@ body {
   color: #aaa;
 }
 
-.signup-btn-google-login {
+.signup-btn-google-login,
+.signup-btn-facebook-login {
   width: 100%;
   padding: 0.75rem;
   background-color: #db4437;
@@ -123,13 +124,20 @@ body {
   cursor: pointer;
 }
 
-.signup-btn-google-login:hover {
+.signup-btn-google-login:hover,
+.signup-btn-facebook-login:hover {
   background-color: #c23321;
 }
 
 .signup-error {
   color: red;
   font-size: 0.875rem;
+}
+
+.signup-social-buttons-con{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 /* Responsive adjustments */
