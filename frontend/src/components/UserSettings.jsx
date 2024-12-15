@@ -12,11 +12,6 @@ function UserSettings() {
     const [fileList, setFileList] = useState([]);
     const [loading, setLoading] = useState(false);
     const [isModalVisible, setIsModalVisible] = useState(false);
-
-
-
-
-
     const customRequest = ({ file, onSuccess, onError }) => {
         const formData = new FormData();
         formData.append("image", file);
