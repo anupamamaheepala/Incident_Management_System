@@ -1,4 +1,52 @@
-body {
-    background-color: #e3e7ec;
+.home-background {
+    background-color: #F3F3FF;
     font-family: 'Roboto', sans-serif;
+  }
+  .home-container{
+    align-content: center;
+    text-align: center;
+    color: #0056A2;
+  }
+  .para-line{
+    text-align: center;
+  }
+  .app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feedback-section {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .feedback-btn:hover {
+    background-color: #0069d9;
+  }
+  .issue-image {
+    width: 50px; /* Adjust size */
+    height: 50px;
+    margin-bottom: 10px;
   }
