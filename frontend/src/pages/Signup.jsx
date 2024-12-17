@@ -151,7 +151,7 @@ const Signup = () => {
           <div className="signup-divider">
                         <Divider>
                             <Typography variant="caption">
-                                Sign in with
+                                Or Login With
                             </Typography>
                         </Divider>
           </div>
