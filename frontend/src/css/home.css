@@ -1,4 +1,4 @@
-body {
+.home-background {
     background-color: #F3F3FF;
     font-family: 'Roboto', sans-serif;
   }
@@ -6,6 +6,9 @@ body {
     align-content: center;
     text-align: center;
     color: #0056A2;
+  }
+  .para-line{
+    text-align: center;
   }
   .app-container {
     max-width: 1200px;

@@ -45,15 +45,15 @@ function Home() {
   ];
 
   return (
-    <div>
+    <div className="home-background">
       <Header />
       <div className="app-container">
         <div>
           <div className="home-container">
             <h1>Facing an Issue? We're Here to Help!</h1>
           </div>
-          <p>
-            Quickly report any problems or concerns you have with our services.
+          <p className="para-line">
+            Quickly report any problems or concerns you have with our services.<br/>
             Select your issue, provide details, and we’ll ensure it’s resolved
             promptly
           </p>
