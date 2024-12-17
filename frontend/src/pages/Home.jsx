@@ -13,6 +13,7 @@ function Home() {
         "Unreflected payments",
         "Refund requests for failed transactions",
       ],
+      image: require("../images/billImg.png"), 
     },
     {
       title: "Service Interruptions",
@@ -25,10 +26,13 @@ function Home() {
     {
       title: "Issues with SIM",
       issues: ["SIM activation or deactivation", "Lost or stolen SIM requests"],
+      image: require("../images/simImg.png"), 
     },
+    
     {
       title: "Service Requests",
       issues: ["Request for a new connection or plan upgrade", "Service delay"],
+      image: require("../images/serviceReqImg.png"), 
     },
     {
       title: "Customer Portal or App Issues",
@@ -63,6 +67,7 @@ function Home() {
                 key={index}
                 title={item.title}
                 issues={item.issues}
+                image={item.image}
                 buttonText="Report"
               />
             ))}
