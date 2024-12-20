@@ -13,24 +13,24 @@ const columns = [
   },
   {
     title: "Name",
-    dataIndex: "transactionID",
-    key: "transactionID",
+    dataIndex: "customeName",
+    key: "customeName",
   },
   {
     title: "NIC",
-    dataIndex: "packageType",
-    key: "packageType",
+    dataIndex: "nic",
+    key: "nic",
   },
   {
     title: "Connection Number",
-    dataIndex: "eventType",
-    key: "eventType",
+    dataIndex: "connectionNumber",
+    key: "connectionNumber",
   },
 
   {
     title: "Incident Type",
-    dataIndex: "eventDate",
-    key: "eventDate",
+    dataIndex: "incidentType",
+    key: "incidentType",
   },
   {
     title: "Status",
@@ -120,7 +120,7 @@ function AdminReports() {
           <div className="table-container">
             <Table
               columns={columns}
-              // dataSource={"bookingList"}
+              // dataSource={"incidentsList"}
               // pagination={"pagination"}
               // onChange={"handleTableChange"}
             />

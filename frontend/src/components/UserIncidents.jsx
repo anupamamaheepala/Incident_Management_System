@@ -17,24 +17,24 @@ import "../css/userProfile.css";
         },
         {
             title: "Incident",
-            dataIndex: "transactionID",
-            key: "transactionID",
+            dataIndex: "incident",
+            key: "incident",
         },
         {
             title: "NIC",
-            dataIndex: "packageType",
-            key: "packageType",
+            dataIndex: "nic",
+            key: "nic",
         },
         {
             title: "Connection Number",
-            dataIndex: "eventType",
-            key: "eventType",
+            dataIndex: "connectionNumber",
+            key: "connectionNumber",
         },
 
         {
             title: "Incident Type",
-            dataIndex: "eventDate",
-            key: "eventDate",
+            dataIndex: "incidentType",
+            key: "incidentType",
             
         },
         {
@@ -126,7 +126,7 @@ const UserIncidents = () => {
                     <div className="table-container">
                         <Table
                             columns={columns}
-                            // dataSource={"bookingList"}
+                            // dataSource={"incidentList"}
                             // pagination={"pagination"}
                             // onChange={"handleTableChange"}
                         />
