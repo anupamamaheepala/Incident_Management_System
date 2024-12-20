@@ -1,7 +1,7 @@
 
 .genral-setting {
     width: 879px;
-    height: 675px;
+    height: 700px;
     flex-shrink: 0;
     margin-top: 20px;
     border-radius: 8px;
@@ -90,7 +90,7 @@
 
 .pw-requirement{
     margin-bottom: 20px;
-    margin-left: 260px;
+    margin-left: 240px;
 }
 .pw-requirement h4 {
     margin-top: 0;
@@ -102,7 +102,7 @@
 }
 .save-btn {
     margin-top: 30px;
-    margin-left: 210px;
+    margin-left: 190px;
 }
 .save-btn button {
     width: 133px;
@@ -116,4 +116,16 @@
 }
 .save-btn button:hover {
     background-color: #27751b;
+}
+.labelStyle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.labelStyle1{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.labelContainer{
+    width: 180px;
 }

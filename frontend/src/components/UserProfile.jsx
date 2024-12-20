@@ -4,7 +4,6 @@ import Link from "antd/es/typography/Link";
 import profileImg from "../images/profileImg.png";
 import "../css/userProfile.css";
 
-<img src={profileImg} alt="ProfileImage" />;
 
 const UserProfile = () => {
   return (
