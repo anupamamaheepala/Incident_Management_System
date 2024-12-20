@@ -1,0 +1,138 @@
+body {
+    background-color: #e3e7ec;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .signin-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+  }
+  
+  /* Form */
+  .signin-form h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signin-form p {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .signin-form .signin-form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .signin-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .signin-form input::placeholder {
+    color: #aaa;
+    font-size: 0.95rem;
+  }
+  
+  .signin-password-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .signin-password-input input {
+    flex: 1;
+  }
+  
+  .signin-form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .signin-form-options .signin-forgot-password {
+    color: #f56c77;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .signin-signin-button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .signin-signin-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Sign up link */
+  .signin-signup-section {
+    margin-top: 1.5rem;
+  }
+  
+  .signin-signup-section .signin-signup-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Social login */
+  .signin-social-login {
+    margin-top: 2rem;
+  }
+  
+  .signin-social-login p {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .signin-social-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signin-facebook-button,
+  .signin-google-button {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+  }
+  
+  .signin-facebook-button {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .signin-google-button {
+    background-color: #db4437;
+    color: white;
+  }
+  
