@@ -151,3 +151,6 @@
   font-size: 23px;
   color: #0056A2;
 }
+.ant-table-thead .ant-table-cell {
+  background-color: #E6F7FF !important;
+  }
